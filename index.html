@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agroforte | Robótica e Automação no Campo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <i class="fa-solid fa-tractor"></i>
+                <span>Agroforte</span>
+            </div>
+
+            <button class="menu-toggle js-menu-toggle" aria-label="Abrir Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <nav class="nav-menu js-nav-menu">
+                <ul>
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#solutions" class="nav-link">Soluções</a></li>
+                    <li><a href="#news" class="nav-link">Notícias</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                    <li>
+                        <button class="theme-toggle js-theme-toggle" aria-label="Alternar Tema">
+                            <i class="fa-solid fa-moon"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1>O Futuro da Agricultura é <span class="highlight">Autônomo</span></h1>
+            <p> revolucionando o campo com robótica inteligente, automação de precisão e soluções para a Agricultura 4.0. Aumente produtividade e reduza custos.</p>
+            <div class="hero-buttons">
+                <a href="#solutions" class="btn-primary">Nossas Soluções</a>
+                <a href="#news" class="btn-secondary">Ver Notícias</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">+2000</span>
+                    <span class="stat-label">Hectares Monitorados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">40%</span>
+                    <span class="stat-label">Aumento de Produtividade</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Operação Autônoma</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Tecnologia no Agroneócio</h2>
+                    <p>O agroneócio representa cerca de <strong>23% do PIB brasileiro</strong>, destacando seu papel crucial na economia. A Agroforte surge para transformar essa realidade através da <strong>Agricultura 4.0</strong>.</p>
+                    <p>Integrando softwares, sistemas e equipamentos inteligentes, memungkinkan os produtores realizarem uma gestão baseada em dados, utilizando novas ferramentas para aprimorar o trabalho agrícola.</p>
+                    <ul class="benefits-list">
+                        <li><i class="fa-solid fa-check"></i> Gestão baseada em dados</li>
+                        <li><i class="fa-solid fa-check"></i> Redução de desperdícios</li>
+                        <li><i class="fa-solid fa-check"></i> Aumento de produtividade</li>
+                        <li><i class="fa-solid fa-check"></i> Sustentabilidade ambiental</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tecnologia agrícola">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Soluções -->
+    <section id="solutions" class="solutions-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Principais Aplicações</h2>
+                <div class="line"></div>
+                <p>Tecnologias que transformam o campo</p>
+            </div>
+            
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <i class="fa-solid fa-drone"></i>
+                    <h3>Monitoramento com Drones</h3>
+                    <p>Drones equipados com sensores e IA analisam em tempo real o crescimento das plantas, umidade do solo e presença de pragas.</p>
+                </div>
+                <div class="solution-card">
+                    <i class="fa-solid fa-robot"></i>
+                    <h3>Tratores Autônomos</h3>
+                    <p>Equipamentos que operam via GPS ou controle remoto (tablets), realizando plantio e colheita com precisão milimétrica.</p>
+                </div>
+                <div class="solution-card">
+                    <i class="fa-solid fa-spray-can-sparkles"></i>
+                    <h3>Pulverização Localizada</h3>
+                    <p>Sistemas que identificam ervas daninhas individualmente e aplicam herbicida apenas onde necessário.</p>
+                </div>
+                <div class="solution-card">
+                    <i class="fa-solid fa-cow"></i>
+                    <h3>Pecuária Automatizada</h3>
+                    <p>Uso de robôs para ordenha de vacas e monitoramento de granjas, melhorando o bem-estar animal.</p>
+                </div>
+                <div class="solution-card">
+                    <i class="fa-solid fa-hand-holding-seedling"></i>
+                    <h3>Colheita Seletiva</h3>
+                    <p>Robôs capaces de identificar e colher frutas delicadas, como morangos, sem danificá-las.</p>
+                </div>
+                <div class="solution-card">
+                    <i class="fa-solid fa-cloud-sun-rain"></i>
+                    <h3> Irrigação Inteligente</h3>
+                    <p>Sistemas automatizados que otimizam o uso da água baseados em sensores de umidade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feed de Notícias -->
+    <main id="news" class="news-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Novidades do Campo</h2>
+                <div class="line"></div>
+                <p>Fique por dentro das inovações em robótica agrícola</p>
+            </div>
+            
+            <div class="news-grid js-news-grid">
+                <!-- Cards inseridos via JavaScript -->
+            </div>
+        </div>
+    </main>
+
+    <!-- Seção Contato -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-card">
+                <h2>Ready to Transform Your Farm?</h2>
+                <p>Entre em contato conosco e descubra como a automação pode revolucionar sua produção.</p>
+                <a href="#" class="btn-primary">Falar com um Especialista</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fa-solid fa-tractor"></i> Agroforte
+                </div>
+                <p>Robótica e Automação Agrícola para o Futuro do Agroneócio.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Agroforte. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
